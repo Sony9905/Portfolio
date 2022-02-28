@@ -1,0 +1,148 @@
+*{
+    scroll-behavior: smooth;
+}
+.Intro {
+    display: flex;
+    height: 100vh;
+}
+
+.Intro-Left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* background-color: red; */
+
+}
+
+.Intro-Right {
+    flex: 1;
+    position: relative;
+}
+
+.left-wrapper {
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.introduction {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.name {
+    font-size: 60px;
+}
+
+.Title {
+    height: 50px;
+    overflow: hidden;
+}
+
+.item {
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(31, 98, 199);
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.animation {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+
+nav {
+    padding: 10px;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+ }
+
+.img-bg {
+  clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: rgb(31, 98, 199);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+button {
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 1em 2em;
+    box-shadow: inset 0 0 0 2px rgb(31, 98, 199);;
+    color: rgb(31, 98, 199);;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+    width: fit-content;
+  }
+  button::before, button::after {
+    box-sizing: inherit;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .draw {
+    transition: color 0.25s;
+  }
+  .draw::before, .draw::after {
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+  }
+  .draw::before {
+    top: 0;
+    left: 0;
+  }
+  .draw::after {
+    bottom: 0;
+    right: 0;
+  }
+  .draw:hover {
+    color: #60daaa;
+  }
+  .draw:hover::before, .draw:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+  .draw:hover::before {
+    border-top-color: #60daaa;
+    border-right-color: #60daaa;
+    transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+  }
+  .draw:hover::after {
+    border-bottom-color: #60daaa;
+    border-left-color: #60daaa;
+    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+  }
