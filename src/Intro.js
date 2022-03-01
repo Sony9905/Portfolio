@@ -7,12 +7,12 @@ const Intro = () => {
             <div className='Intro-Left'>
                 <div className='left-wrapper'>
                     <h2 className='introduction'>Hello my name is</h2>
-                    <h1 className='name'>Sony Singh</h1>
-                    <div className='bio'>My name is Sony Singh, I am a upcoming graduate leveraging studies in computer science. I am seeking real-world experience as a front-end developer, as well as to maintain a full-time position that offers professional challenges, utilizing interpersonal skills, excellent time management, and problem-solving skills. My tech stack includes:</div>
+                    <h1 className='name'>Maninder Singh</h1>
+                    <div className='bio'>I am a recent Hunter College graduate leveraging studies in computer science. I am seeking a jr front-end developer role in a company that will allow me to grow as a developer, offer professional challenges, utilize my interpersonal skills and excellent time management. My tech stack includes:</div>
                     <div className='Title'>
                         <div className='animation'>
                             <div className='item'>
-                                Git Flow Control
+                                React
                             </div>
                             <div className='item'>
                                 JS
@@ -24,7 +24,7 @@ const Intro = () => {
                                 HTML
                             </div>
                             <div className='item'>
-                                React
+                                Git Flow Control
                             </div>
                         </div>
                     </div>
@@ -45,3 +45,22 @@ const Intro = () => {
 };
 
 export default Intro;
+
+// fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+// .then((res)=>{
+//     console.log(res);
+//     return res.json()
+// }).then((data)=>{
+//     console.log("Data parsed", data.name)
+//     return fetch("https://pokeapi.co/api/v2/pokemon/mew")
+    
+// }).then((name2)=>{
+//     return name2.json()
+    
+// }).then((mew) => {
+//     console.log("Data parsed", mew.name)
+// })
+// .catch((e)=>{
+//     console.log("error", e)
+// })
+
