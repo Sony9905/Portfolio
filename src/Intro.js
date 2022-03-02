@@ -18,10 +18,10 @@ const Intro = () => {
                                 JS
                             </div>
                             <div className='item'>
-                                CSS
+                                HTML/CSS3
                             </div>
                             <div className='item'>
-                                HTML
+                                Node
                             </div>
                             <div className='item'>
                                 Git Flow Control
@@ -45,22 +45,3 @@ const Intro = () => {
 };
 
 export default Intro;
-
-// fetch("https://pokeapi.co/api/v2/pokemon/ditto")
-// .then((res)=>{
-//     console.log(res);
-//     return res.json()
-// }).then((data)=>{
-//     console.log("Data parsed", data.name)
-//     return fetch("https://pokeapi.co/api/v2/pokemon/mew")
-    
-// }).then((name2)=>{
-//     return name2.json()
-    
-// }).then((mew) => {
-//     console.log("Data parsed", mew.name)
-// })
-// .catch((e)=>{
-//     console.log("error", e)
-// })
-

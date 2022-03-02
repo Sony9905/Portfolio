@@ -3,6 +3,7 @@ import "./Projects.css";
 import starbucks from "./starbucks.png";
 import FR from "./FR.png";
 import Data from "./DataScience.png";
+import Robo from "./robofriends.png";
 const Project1 = () => {
   return (
     <div>
@@ -12,7 +13,7 @@ const Project1 = () => {
           <div className="a-card">
             <a href='https://sony9905.github.io/RoboFriends/' target="blank_">
               <img
-                src="https://raw.githubusercontent.com/Sony9905/Portfolio/main/src/assets/robofriends.png"
+                src={Robo}
                 alt=""
                 className="a-img"
               />
