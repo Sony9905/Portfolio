@@ -15,7 +15,7 @@ function Contact() {
 
             <li className="list-item"><i className="fa fa-envelope fa-2x"><span className="contact-text gmail"><a href="mailto:#" title="Send me an email">1sony9905@gmail.com</a></span></i></li>
 
-            <li className="list-item"><i className="fa fa-envelope fa-2x"><span className="contact-text gmail">Monday-Friday, 9am-1pm</span></i></li>
+            <li className="list-item"><i className="fa fa-envelope fa-2x"><span className="contact-text gmail">Monday-Friday, 9am-1pm EST</span></i></li>
             <li className="list-item"><i className="fa fa-envelope fa-2x"><span className="contact-text gmail">Saturday/Sunday, 9am-9pm EST</span></i></li>
             
           </ul>

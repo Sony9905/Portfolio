@@ -21,7 +21,7 @@ const Intro = () => {
                                 HTML/CSS3
                             </div>
                             <div className='item'>
-                                Node
+                                Node/Express
                             </div>
                             <div className='item'>
                                 Git Flow Control

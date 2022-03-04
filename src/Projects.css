@@ -12,6 +12,7 @@
     justify-content: center;
     position: relative;
     height: 100%;
+    /* margin-left: 1rem; */
   }
   
   .a-right {
@@ -29,7 +30,7 @@
   .a-card {
     width: 60%;
     height: 70vh;
-    border-radius: 30px;
+    border-radius: 1.88em;
     position: relative;
     overflow: hidden;
   }
