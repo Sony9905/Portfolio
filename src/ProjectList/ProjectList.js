@@ -1,10 +1,10 @@
 import React from 'react';
 import "./Projects.css";
-import starbucks from "./starbucks.png";
-import FR from "./FR.png";
-import Data from "./DataScience.png";
-import Robo from "./robofriends.png";
-const Projects = () => {
+import starbucks from "../ProjectImages/starbucks.png";
+import FR from "../ProjectImages/FR.png";
+import Data from '../ProjectImages/DataScience.png';
+import Robo from "../ProjectImages/robofriends.png";
+const ProjectList = () => {
   return (
     <div>
       <div className="Projects">
@@ -118,4 +118,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectList;

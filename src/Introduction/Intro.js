@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from "./profile.png";
+import Me from "../ProjectImages/profile.png";
 import './Intro.css';
 const Intro = () => {
   return <div>

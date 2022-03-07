@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Contact.css";
-import lk from"./lk.png";
-import git from "./git.png";
+import lk from"../ProjectImages/lk.png";
+import git from "../ProjectImages/git.png";
 function Contact() {
   return (
     <div id="body">
@@ -22,11 +22,11 @@ function Contact() {
 
           <ul className="social-media-list">
             <li>
-              <a href="https://github.com/Sony9905"  target="_blank" className="contact-icon" className="c">
+              <a href="https://github.com/Sony9905"  target="_blank" className="contact-icon c">
                 <img src={git} alt="github"/>
               </a>
             </li> 
-            <li><a href="https://www.linkedin.com/in/sony-singh-a8494a162/" target="_blank" className="contact-icon" className="c">
+            <li><a href="https://www.linkedin.com/in/sony-singh-a8494a162/" target="_blank" className="contact-icon c">
               <img src={lk} alt="linkdin"/></a>
             </li>       
           </ul>

@@ -1,11 +1,11 @@
-import Intro from './Intro';
-import Projects from './Project1';
-import Contact from './Contact';
+import Intro from './Introduction/Intro';
+import Contact from './ContactPage/Contact';
+import ProjectList from './ProjectList/ProjectList';
 function App() {
   return (
     <div>
       <Intro/>
-      <Projects/>
+      <ProjectList/>
       <Contact/>
     </div>
   );
