@@ -1,6 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Created by Maninder Singh.
 
+## Hosted By GitHub Pages:
+You can click the following link below or in the top right hand corner to see my current Portfolio.
+
 ## Available Scripts
 
 In the project directory, you can run:
