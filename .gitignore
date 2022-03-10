@@ -7,9 +7,9 @@
 
 # testing
 /coverage
-/src/App.test.js
-/src/reportWebVitals.js
-/src/logo.svg
+src/App.test.js
+src/reportWebVitals.js
+src/logo.svg
 # production
 /build
 
