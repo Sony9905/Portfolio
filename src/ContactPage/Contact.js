@@ -22,11 +22,11 @@ function Contact() {
 
           <ul className="social-media-list">
             <li>
-              <a href="https://github.com/Sony9905"  target="_blank" className="contact-icon c">
+              <a href="https://github.com/Sony9905"  className="contact-icon c">
                 <img src={git} alt="github"/>
               </a>
             </li> 
-            <li><a href="https://www.linkedin.com/in/sony-singh-a8494a162/" target="_blank" className="contact-icon c">
+            <li><a href="https://www.linkedin.com/in/sony-singh-a8494a162/" className="contact-icon c">
               <img src={lk} alt="linkdin"/></a>
             </li>       
           </ul>
